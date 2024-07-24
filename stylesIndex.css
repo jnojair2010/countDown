@@ -1,0 +1,534 @@
+
+
+@media (max-width: 2900px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        width: 1500px;
+        margin: 0px auto auto auto;
+    }
+    #body{
+        display: grid;
+        grid-template-columns:750px 750px;
+    }
+    #header{
+        width: 100%;
+        height:80px ;
+        background-color: #ffd900;
+        margin: 0px;
+    }
+    #header img{
+        width: 200px;
+        margin-top: 15px;
+        margin-left: 30px;
+        height: 50px;
+    }
+    #text{
+        width: 100%;
+        height: 600px;
+        background-color: #514988;
+        margin: 0px auto auto auto;
+    }
+    #text h1{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color:#ffd900;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    #text h3{
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #text  p{
+        width: 80%;
+        margin: 50px auto auto auto;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+    }
+    #videoCount{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        margin: 0px auto auto auto;
+        padding: 0px;
+    }
+    #countDown{
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+        background-color:white;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+    }
+    .count{
+        width: 150px;
+        display:grid;
+        grid-template-columns: 90px 50px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 2px;
+
+    }
+    .medidads{
+        width: 80px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: black;
+        text-align: center;
+    }
+    .unidadeMedida{
+        margin-right: 10px;
+       text-align:left;
+    }
+    #video{
+        width: 100%;
+        height: auto;
+        padding: 8px;   
+        margin: 0px;
+    }
+    #video video{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #footer h2{
+        color:#ffd900;
+        text-transform: uppercase;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+    }
+    #publics{
+        width: 1200px;
+        column-gap: 50px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px 400px auto 50px;
+        padding: 2px;
+    }
+    #publics img{
+        width: 100px;
+        margin: 0px;
+    }
+    #publics button{
+        width: 300px;
+        height: 90px;
+        margin-top: 5px;
+        background-color: #514988;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 100px;
+        border: none;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 2000px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        width: 1500px;
+        margin: 0px auto auto auto;
+    }
+    #body{
+        display: grid;
+        grid-template-columns:750px 750px;
+    }
+    #header{
+        width: 100%;
+        height:80px ;
+        background-color: #ffd900;
+        margin: 0px;
+    }
+    #header img{
+        width: 200px;
+        margin-top: 15px;
+        margin-left: 30px;
+        height: 50px;
+    }
+    #text{
+        width: 100%;
+        height: 600px;
+        background-color: #514988;
+        margin: 0px auto auto auto;
+    }
+    #text h1{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color:#ffd900;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    #text h3{
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #text  p{
+        width: 90%;
+        margin: 20px auto auto auto;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+    }
+    #videoCount{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        margin: 0px auto auto auto;
+        padding: 0px;
+    }
+    #countDown{
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+        background-color:white;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+    }
+    .count{
+        width: 150px;
+        display:grid;
+        grid-template-columns: 90px 50px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 2px;
+
+    }
+    .medidads{
+        width: 80px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: black;
+        text-align: center;
+    }
+    .unidadeMedida{
+        margin-right: 10px;
+       text-align:left;
+    }
+    #video{
+        width: 100%;
+        height: auto;
+        padding: 8px;   
+        margin: 0px;
+    }
+    #video video{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #footer{
+        height: 100px;
+        background-color: white;
+    }
+
+    #footer h2{
+        color:#ffd900;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    #publics{
+        width: 1200px;
+        column-gap: 50px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px 400px auto 50px;
+        padding: 2px;
+    }
+    #publics img{
+        width: 100px;
+        margin: 0px;
+    }
+    #publics button{
+        width: 300px;
+        height: 90px;
+        margin-top: 5px;
+        background-color: #514988;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 100px;
+        border: none;
+    }
+}
+
+
+
+
+
+
+  @media (max-width: 1400px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        width: 1000;
+        margin: 0px auto auto auto;
+    }
+    #body{
+        display: grid;
+        grid-template-columns:750px 750px;
+    }
+    #header{
+        width: 100%;
+        height:80px ;
+        background-color: #ffd900;
+        margin: 0px;
+    }
+    #header img{
+        width: 200px;
+        margin-top: 15px;
+        margin-left: 30px;
+        height: 50px;
+    }
+    #text{
+        width: 100%;
+        height: 600px;
+        background-color: #514988;
+        margin: 0px auto auto auto;
+    }
+    #text h1{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color:#ffd900;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    #text h3{
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #text  p{
+        width: 90%;
+        margin: 20px auto auto auto;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+    }
+    #videoCount{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        margin: 0px auto auto auto;
+        padding: 0px;
+    }
+    #countDown{
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+        background-color:white;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+    }
+    .count{
+        width: 150px;
+        display:grid;
+        grid-template-columns: 90px 50px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 2px;
+
+    }
+    .medidads{
+        width: 80px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: black;
+        text-align: center;
+    }
+    .unidadeMedida{
+        margin-right: 10px;
+       text-align:left;
+    }
+    #video{
+        width: 100%;
+        height: auto;
+        padding: 8px;   
+        margin: 0px;
+    }
+    #video video{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #publics{
+        width: 1200px;
+        column-gap: 50px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px 400px auto 50px;
+        padding: 2px;
+    }
+    #publics img{
+        width: 100px;
+        margin: 0px;
+    }
+    #publics button{
+        width: 300px;
+        height: 90px;
+        margin-top: 5px;
+        background-color: #514988;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 100px;
+        border: none;
+    }
+}
+@media (max-width: 1000px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        width: 900;
+        margin: 0px auto auto auto;
+    }
+    #body{
+        display: grid;
+        grid-template-columns:750px 750px;
+    }
+    #header{
+        width: 100%;
+        height:80px ;
+        background-color: #ffd900;
+        margin: 0px;
+    }
+    #header img{
+        width: 200px;
+        margin-top: 15px;
+        margin-left: 30px;
+        height: 50px;
+    }
+    #text{
+        width: 100%;
+        height: 600px;
+        background-color: #514988;
+        margin: 0px auto auto auto;
+    }
+    #text h1{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        color:#ffd900;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    #text h3{
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        margin-top: 10px;
+    }
+    #text  p{
+        width: 90%;
+        margin: 20px auto auto auto;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+    }
+    #videoCount{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        margin: 0px auto auto auto;
+        padding: 0px;
+    }
+    #countDown{
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+        background-color:white;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+    }
+    .count{
+        width: 150px;
+        display:grid;
+        grid-template-columns: 90px 50px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 2px;
+
+    }
+    .medidads{
+        width: 80px;
+        text-transform: uppercase;
+        margin-left: 10px;
+        color: black;
+        text-align: center;
+    }
+    .unidadeMedida{
+        margin-right: 10px;
+       text-align:left;
+    }
+    #video{
+        width: 100%;
+        height: auto;
+        padding: 8px;   
+        margin: 0px;
+    }
+    #video video{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #publics{
+        width: 1200px;
+        column-gap: 50px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px 400px auto 50px;
+        padding: 2px;
+    }
+    #publics img{
+        width: 100px;
+        margin: 0px;
+    }
+    #publics button{
+        width: 300px;
+        height: 90px;
+        margin-top: 5px;
+        background-color: #514988;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-left: 100px;
+        border: none;
+    }
+}
